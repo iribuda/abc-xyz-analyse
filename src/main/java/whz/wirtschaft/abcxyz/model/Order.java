@@ -11,7 +11,7 @@ public class Order {
     private DoubleProperty sum;
     private ObjectProperty<Quality> quality;
 
-    Order(){
+    public Order(){
         orderNumber = new SimpleIntegerProperty();
         supplier = new SimpleObjectProperty<>();
         date = new SimpleObjectProperty<>();
